@@ -1,6 +1,6 @@
 {
   "name": "react-native-dialogs-master",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "This is a combination of the pop-up box confirmation react-native components for Android and Ios,you can customize the style and parameters for the component",
   "main": "index.js",
   "directories": {
@@ -16,11 +16,11 @@
   "keywords": [
     "react",
     "react-native",
-	"popups",
+    "popups",
     "alert",
     "confrim",
     "autofade",
-	"dialogs",
+    "dialogs",
     "pop-up",
     "box",
     "confirmation",
