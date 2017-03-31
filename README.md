@@ -1,6 +1,6 @@
 # CommonDialog
 This is a combination of the pop-up box confirmation react-native components for Android and Ios,you can customize the style and parameters for the component  
-# react-native-zDialog-List
+# react-native-dialogs-master
 - A react-native picker/selector component for both Android & iOS.
 # Features
 - Pure JS.
