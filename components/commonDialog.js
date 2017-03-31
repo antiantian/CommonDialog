@@ -1,3 +1,9 @@
+
+/**
+ * Created by anyutz on 2017/3/31.
+ */
+
+'use strict';
 import React,{Component} from 'react'
 import {
 	View,
