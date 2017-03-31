@@ -1,0 +1,29 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "~15.4.0",
+    "react-native": "0.41.2",
+    "react-native-baidu-map": "^0.6.0",
+    "react-native-fs": "^2.1.0-rc.1",
+    "react-native-image-picker": "^0.26.2",
+    "react-native-modal-dropdown": "^0.4.2",
+    "react-native-pdf-view": "^0.3.2",
+    "react-native-swiper": "^1.5.4",
+    "react-timer-mixin": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.1",
+    "react-test-renderer": "~15.4.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
