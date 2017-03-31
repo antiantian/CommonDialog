@@ -2,7 +2,7 @@
 This is a combination of the pop-up box confirmation react-native components for Android and Ios,you can customize the style and parameters for the component  
 # react-native-zDialog-List
 - A react-native picker/selector component for both Android & iOS.
-#Features
+# Features
 - Pure JS.
 - Pop up box and confirm the box together .
 - Custom pop-up box
@@ -10,14 +10,15 @@ This is a combination of the pop-up box confirmation react-native components for
 - Highly customizable.(You can change the style you want)
 - Controllable with API by code. (show/hide/valueChange)
 - Flexible change of content
-#Installation
+# Installation
 - npm i react-native-dialogs-master --save
 
-#Usage
-- Import this module:
---javascript
-- import CommonDialog from 'react-native-dialogs-master';
---
+# Usage
+## Import this module:
+```javascript
+  import CommonDialog from 'react-native-dialogs-master';
+```
+## code
 ```javascript
 import React, { Component } from 'react';
 import {
