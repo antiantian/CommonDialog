@@ -11,15 +11,15 @@ This is a combination of the pop-up box confirmation react-native components for
 - Controllable with API by code. (show/hide/valueChange)
 - Flexible change of content
 #Installation
--npm i react-native-dialogs-master --save
+- npm i react-native-dialogs-master --save
 
 #Usage
-Import this module:
+- Import this module:
 --javascript
-import CommonDialog from 'react-native-dialogs-master';
+- import CommonDialog from 'react-native-dialogs-master';
 --
 ```javascript
-    import React, { Component } from 'react';
+import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -188,7 +188,7 @@ class DefineCon extends Component{
 ```
     
 ## Demo
-<img src="https://github.com/antiantian/react-native-zDialog-List/blob/master/show.gif" width = "400" height = "auto" alt="Demo 1"/>
+<img src="https://github.com/antiantian/CommonDialog/blob/master/show.gif" width = "400" height = "auto" alt="Demo 1"/>
 
 ### Customization options
 
