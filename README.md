@@ -113,16 +113,20 @@ export default class DialogDemo extends Component {
 	 
     return (
        <View style={styles.container}>
-	      <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' onPress={this.funAlert.bind(this)}>  
+	      <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' 
+	                 onPress={this.funAlert.bind(this)}>  
 			<Text style={[styles.comBtnText]}>alert</Text>  
 		  </TouchableHighlight>
-		  <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' onPress={this.funConfirm.bind(this)}>  
+		  <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' 
+		        onPress={this.funConfirm.bind(this)}>  
 			<Text style={[styles.comBtnText]}>confirm</Text>  
 		  </TouchableHighlight>
-		  <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' onPress={this.funcustomConfirm.bind(this)}>  
+		  <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' 
+		        onPress={this.funcustomConfirm.bind(this)}>  
 			<Text style={[styles.comBtnText]}>customconfirm</Text>  
 		  </TouchableHighlight>
-		  <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' onPress={this.funAutofade.bind(this)}>  
+		  <TouchableHighlight style={[styles.comBtnBtnView,{width:100}]} underlayColor='transparent' 
+		         onPress={this.funAutofade.bind(this)}>  
 			<Text style={[styles.comBtnText]}>Autofade</Text>  
 		  </TouchableHighlight>
 		  <CommonDialog types={'alert'} components={<DefineCon/>}   ref="dAlert" />
@@ -167,7 +171,9 @@ class DefineCon2 extends Component{
 		  <View style={[styles.conMid]}>
 		      <View style={{flex:1,flexDirection:'column',padding:15,alignItems:'center',justifyContent:'center'}}>
 			    <Text style={{flex:1,color:'#000000',textAlignVertical:'center'}}>支付成功,订单已提交审核！</Text>
-				<Text style={{flex:1,fontSize:12,textAlignVertical:'center'}}>即将关闭此窗口（<Text style={{color:'#ff0000'}}>{this.state.times}秒</Text>）</Text>
+				<Text style={{flex:1,fontSize:12,textAlignVertical:'center'}}>
+				      即将关闭此窗口（<Text style={{color:'#ff0000'}}>{this.state.times}秒</Text>）
+				 </Text>
 			  </View> 
 		  </View>
 		)
