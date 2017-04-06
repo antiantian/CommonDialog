@@ -78,7 +78,7 @@ export default class CommonDialog extends Component{
 														<Text>{this.state.messText}</Text>
 												 </View>  
 					  }
-					  { this.state.buttons&&<View style={styles.btnView,{flexDirection:'row',flex:1}}>  
+					  { this.state.buttons&&<View style={styles.btnView,{flexDirection:'row',marginBottom:15}}>  
 						   
 						   {this.state.buttons.map((item,i)=>this.CreateBtns(item,i))}
 						   
@@ -214,8 +214,6 @@ const styles = StyleSheet.create({
      alignItems:"center",  
     justifyContent:"space-between",
     flexDirection:'row',  
-	flex:1,
-    height: 44,  
   },  
   comBtnBtnView:{  
     height:32,  
