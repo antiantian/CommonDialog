@@ -119,15 +119,15 @@ export default class CommonDialog extends Component{
   */  
 	show(options) { 
 	  if(options){
-		clickScreen=options.clickScreen==undefined?true:options.clickScreen;
-		animationType=options.animationType==undefined?'fade':options.animationType;
-		title=options.title==undefined?'提示':options.title;
-		thide=options.thide==undefined?false:options.thide;
-		headStyle=options.headStyle==undefined?'':options.headStyle;
-		messText=options.messText==undefined?'':options.messText;
-		innersWidth=options.innersWidth==undefined?null:options.innersWidth;
-	    innersHeight=options.innersHeight==undefined?null:options.innersHeight;
-		buttons=options.buttons==undefined?null:options.buttons;
+		var clickScreen=options.clickScreen==undefined?true:options.clickScreen;
+		var animationType=options.animationType==undefined?'fade':options.animationType;
+		var title=options.title==undefined?'提示':options.title;
+		var thide=options.thide==undefined?false:options.thide;
+		var headStyle=options.headStyle==undefined?'':options.headStyle;
+		var messText=options.messText==undefined?'':options.messText;
+		var innersWidth=options.innersWidth==undefined?null:options.innersWidth;
+	    var innersHeight=options.innersHeight==undefined?null:options.innersHeight;
+		var buttons=options.buttons==undefined?null:options.buttons;
 		if(!this.state.modalVisible){  
 		  this.setState({
 			  title:title,
@@ -250,11 +250,6 @@ const styles = StyleSheet.create({
 		borderRadius:3,
 		textAlignVertical:'center',
 	},
-	boxCenter:{
-		justifyContent:'center',
-		alignItems:'center',
-	},
-	
 	Jcenter:{
 		justifyContent:'center',
 	},
